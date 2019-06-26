@@ -1,0 +1,10 @@
+git+https://github.com/Rapptz/discord.py@rewrite
+git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
+aiohttp
+Imgurpython
+requests
+asyncio
+beautifulsoup4
+lxml
+googletrans
+PyNaCl
