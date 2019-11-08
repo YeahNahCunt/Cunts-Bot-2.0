@@ -286,4 +286,4 @@ for filename in os.listdir('./cogs'):
         client.load_extension(f'cogs.{filename[:-3]}')
         
         
-client.run(Auth.discord_token)        
+client.run(os.environ['BOT_TOKEN'])
