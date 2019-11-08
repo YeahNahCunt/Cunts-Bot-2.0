@@ -10,7 +10,11 @@ class Test_room(commands.Cog):
     @commands.Cog.listener()
     async def on_ready(self):
         print('Test Room is in use')
-        
+    
+    @commands.Cog.listener()
+    async def on_reaction_add(self, reaction, user):
+        channel = reaction.message.channel
+        await channel.send(f'test {reaction.emoji} from : {reaction.message.content}')
         
         
 def setup(client):
