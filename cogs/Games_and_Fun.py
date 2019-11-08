@@ -9,7 +9,6 @@ import discord
 import requests
 from discord import Game
 from discord.ext import commands
-from PIL import Image
 
 ####INSULTS##### add insults to a json file later
 
